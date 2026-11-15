@@ -24,7 +24,6 @@ from helpers import (
     stop_posting_workers,
 )
 
-# إعداد نظام تسجيل الأخطاء
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=getattr(logging, LOG_LEVEL, logging.INFO)
